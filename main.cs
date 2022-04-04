@@ -21,10 +21,10 @@ class Program
         Console.Write("Enter the height (cm): ");
         width = Convert.ToInt32(Console.ReadLine());
 
-      //process
+       //process
         area = (length * width) / 2;
 
-      //output
+       //output
         Console.WriteLine("");
         Console.Write("The area of the triangle = " + area + " cm²");
         Console.ReadKey();
