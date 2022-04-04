@@ -7,7 +7,6 @@ class Program
 {
     public static void Main(string[] args)
     {
-// input
         int length;
         int width;
         int area;
@@ -17,9 +16,7 @@ class Program
         length = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the height (cm): ");
         width = Convert.ToInt32(Console.ReadLine());
-//process
         area = (length * width) / 2;
-//output
         Console.WriteLine("");
         Console.Write("The area of the triangle = " + area + " cm²");
         Console.ReadKey();
